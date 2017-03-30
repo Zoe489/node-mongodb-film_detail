@@ -5,7 +5,6 @@ const app = express();
 
 
 app.listen(port);
-console.log(`imooc started port: ${port}`);
 
 app.get('/views/index.html', (req, res) => {
   res.sendFile(`${__dirname}/index.html`);
