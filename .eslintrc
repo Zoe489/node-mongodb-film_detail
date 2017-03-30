@@ -1,0 +1,11 @@
+{
+    "extends": "airbnb",
+    "installedESLint": true,
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+      "keyword-spacing": [2, { "before": true, "after": true, "overrides": {} }],
+      "linebreak-style": ["error", "unix"]
+      }
+}
