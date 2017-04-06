@@ -7,10 +7,9 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="http://localhost:3000/detail.html" method="GET">
-    First Name: <input type="text" name="first_name"><br>
-    Last Name: <input type="text" name="last_name">
-    <input type="submit" value="Submit">
+  <form action="http://localhost:3000/file_upload" enctype="multipart/form-data">
+    <input type="file" name="image" size="50"> <br>
+    <input type="submit" value="upload">
   </form>
 </body>
 </html>
